@@ -35,9 +35,8 @@
                     <div class="hero-actions">
                         <a class="btn btn-primary" href="#fleet">Ver Frota</a>
                         <a class="btn btn-secondary" href="#benefits">Saber Mais</a>
-                        <a class="btn btn-whatsapp"
-                            href="https://wa.me/?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20slots%20TVDE%20e%20aluguer%20de%20carros%20para%20motoristas."
-                            target="_blank" rel="noopener">WhatsApp TVDE</a>
+                        <a class="btn btn-whatsapp btn-disabled" href="#" aria-disabled="true"
+                            title="Botão temporariamente desativado">WhatsApp TVDE</a>
                     </div>
                 </div>
                 <div class="hero-image" aria-hidden="true">
@@ -146,23 +145,27 @@
                         labore et dolore magna aliqua.</p>
                 </div>
                 <form class="contact-form" action="#" method="post">
-                    <label>
-                        Nome Completo
-                        <input type="text" name="name" placeholder="Seu nome" required />
-                    </label>
-                    <label>
-                        Email
-                        <input type="email" name="email" placeholder="email@exemplo.com" required />
-                    </label>
-                    <label>
-                        Telefone
-                        <input type="tel" name="phone" placeholder="(00) 90000-0000" required />
-                    </label>
-                    <label>
-                        Mensagem
-                        <textarea name="message" rows="4" placeholder="Conte-nos o que precisa..."></textarea>
-                    </label>
-                    <button class="btn btn-primary btn-submit" type="submit">Solicitar Slot</button>
+                    <p class="form-note">Formulário temporariamente desativado por questões de segurança. Será reativado
+                        em breve.</p>
+                    <fieldset disabled>
+                        <label>
+                            Nome Completo
+                            <input type="text" name="name" placeholder="Seu nome" required />
+                        </label>
+                        <label>
+                            Email
+                            <input type="email" name="email" placeholder="email@exemplo.com" required />
+                        </label>
+                        <label>
+                            Telefone
+                            <input type="tel" name="phone" placeholder="(00) 90000-0000" required />
+                        </label>
+                        <label>
+                            Mensagem
+                            <textarea name="message" rows="4" placeholder="Conte-nos o que precisa..."></textarea>
+                        </label>
+                        <button class="btn btn-primary btn-submit" type="submit">Solicitar Slot</button>
+                    </fieldset>
                 </form>
             </div>
         </section>
